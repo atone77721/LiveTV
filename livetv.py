@@ -1,25 +1,13 @@
 # livetv.py
 import os
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad
-import base64
 from datetime import datetime
-
-def encrypt_url(url, key, iv):
-    """Encrypt URL using AES-256-CBC"""
-    cipher = AES.new(key, AES.MODE_CBC, iv)
-    ct_bytes = cipher.encrypt(pad(url.encode(), AES.block_size))
-    return base64.b64encode(ct_bytes).decode('utf-8')
 
 def create_playlist():
     try:
-        # Get configuration from environment variables
-        base_url = os.getenv('LIVETV_BASE_URL')
-        if not base_url:
-            raise ValueError("LIVETV_BASE_URL environment variable is not set")
-        
-        encryption_key = os.getenv('ENCRYPTION_KEY').encode()
-        encryption_iv = os.getenv('ENCRYPTION_IV').encode()
+        # Get base URL from environment variable
+        base_url = os.getenv('LIVETV_BASE_URL', 'http://127.0.0.1:5004/auto/')
+        if not base_url.endswith('/'):
+            base_url += '/'
         
         # Complete channel list
         channels = [
@@ -203,17 +191,12 @@ def create_playlist():
             f.write(f'#PLAYLIST:{datetime.utcnow().strftime("%Y-%m-%d")}\n\n')
             
             # Process channels
-            for channel_num, channel_name in channels:
-                # Encrypt the URL
-                channel_url = f'v{channel_num.replace(".", "")}'
-                full_url = f'{base_url}{channel_url}'
-                encrypted_url = encrypt_url(full_url, encryption_key, encryption_iv)
-                
+            for channel in channels:
                 # Write channel entry
-                f.write(f'#EXTINF:-1 tvg-id="{channel_num}" tvg-name="{channel_name}",{channel_name}\n')
+                f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel[1]}",{channel[1]}\n')
                 f.write(f'#EXTVLCOPT:http-referer={base_url}\n')
                 f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                f.write(f'{encrypted_url}\n\n')
+                f.write(f'{base_url}{channel[0]}\n\n')
 
         print(f"TiviMate playlist generated: {output_file}")
         return output_file
