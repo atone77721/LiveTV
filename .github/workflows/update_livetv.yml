@@ -1,4 +1,4 @@
-# save as .github/workflows/update_livetv.yml
+# .github/workflows/update_livetv.yml
 name: Update LiveTV Playlist
 
 on:
@@ -17,7 +17,7 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -39,19 +39,19 @@ jobs:
       run: python livetv.py
 
     - name: Upload playlist artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: livetv-playlist
-        path: livetv_playlist.m3u
+        path: tivimate_playlist.m3u
         retention-days: 1
 
     - name: Commit and push changes
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add livetv_playlist.m3u
+        git add tivimate_playlist.m3u
         git diff --quiet && git diff --staged --quiet || \
-          (git commit -m "Update LiveTV playlist [skip ci]" && \
+          (git commit -m "Update TiviMate playlist [skip ci]" && \
            git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
