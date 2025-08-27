@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url=""
 #PLAYLIST:2025-08-27
 
-#EXTINF:-1 tvg-id="10.1" tvg-name="Local Channel v10.1",Local Channel v10.1
+#EXTINF:-1 tvg-id="10.1" tvg-name="Local Channel Guide v10.1",Local Channel Guide v10.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v10.1
@@ -16,7 +16,7 @@ http://128.230.54.128:5004/auto/v10.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v11.1
 
-#EXTINF:-1 tvg-id="11.6" tvg-name="WWAY 2 v11.6",WWAY 2 v11.6
+#EXTINF:-1 tvg-id="11.6" tvg-name="WWAY 2 CBS v11.6",WWAY 2 CBS v11.6
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v11.6
@@ -26,7 +26,7 @@ http://128.230.54.128:5004/auto/v11.6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v12.1
 
-#EXTINF:-1 tvg-id="12.2" tvg-name="WSFX 2 v12.2",WSFX 2 v12.2
+#EXTINF:-1 tvg-id="12.2" tvg-name="WSFX 2 Court v12.2",WSFX 2 Court v12.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v12.2
@@ -36,12 +36,12 @@ http://128.230.54.128:5004/auto/v12.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v12.6
 
-#EXTINF:-1 tvg-id="12.7" tvg-name="WECT 2 v12.7",WECT 2 v12.7
+#EXTINF:-1 tvg-id="12.7" tvg-name="WECT 2 Bounce v12.7",WECT 2 Bounce v12.7
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v12.7
 
-#EXTINF:-1 tvg-id="13.1" tvg-name="WWAY 3 v13.1",WWAY 3 v13.1
+#EXTINF:-1 tvg-id="13.1" tvg-name="WWAY 3 CW v13.1",WWAY 3 CW v13.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v13.1
@@ -51,7 +51,7 @@ http://128.230.54.128:5004/auto/v13.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v13.6
 
-#EXTINF:-1 tvg-id="13.7" tvg-name="WUNC 2 v13.7",WUNC 2 v13.7
+#EXTINF:-1 tvg-id="13.7" tvg-name="WUNC 2 PBS Kids v13.7",WUNC 2 PBS Kids v13.7
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v13.7
@@ -61,7 +61,7 @@ http://128.230.54.128:5004/auto/v13.7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v23.1
 
-#EXTINF:-1 tvg-id="23.2" tvg-name="WILM 2 v23.2",WILM 2 v23.2
+#EXTINF:-1 tvg-id="23.2" tvg-name="WILM 2 Me TV v23.2",WILM 2 Me TV v23.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v23.2
@@ -91,7 +91,7 @@ http://128.230.54.128:5004/auto/v25.3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v26.1
 
-#EXTINF:-1 tvg-id="28.1" tvg-name="BALLY Sports v28.1",BALLY Sports v28.1
+#EXTINF:-1 tvg-id="28.1" tvg-name="BALLY Sports South v28.1",BALLY Sports South v28.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v28.1
@@ -101,7 +101,7 @@ http://128.230.54.128:5004/auto/v28.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v30.1
 
-#EXTINF:-1 tvg-id="30.2" tvg-name="USA East v30.2",USA East v30.2
+#EXTINF:-1 tvg-id="30.2" tvg-name="USA East Columbia USA v30.2",USA East Columbia USA v30.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v30.2
@@ -351,7 +351,7 @@ http://128.230.54.128:5004/auto/v46.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v46.3
 
-#EXTINF:-1 tvg-id="47.1" tvg-name="GREAT AMERICAN v47.1",GREAT AMERICAN v47.1
+#EXTINF:-1 tvg-id="47.1" tvg-name="GREAT AMERICAN COUNTRY v47.1",GREAT AMERICAN COUNTRY v47.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v47.1
@@ -366,7 +366,7 @@ http://128.230.54.128:5004/auto/v47.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v47.3
 
-#EXTINF:-1 tvg-id="48.1" tvg-name="DELUXE GUIDE v48.1",DELUXE GUIDE v48.1
+#EXTINF:-1 tvg-id="48.1" tvg-name="DELUXE GUIDE 2 v48.1",DELUXE GUIDE 2 v48.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v48.1
@@ -381,12 +381,12 @@ http://128.230.54.128:5004/auto/v48.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v48.3
 
-#EXTINF:-1 tvg-id="49.1" tvg-name="FOX SPORTS v49.1",FOX SPORTS v49.1
+#EXTINF:-1 tvg-id="49.1" tvg-name="FOX SPORTS 1 v49.1",FOX SPORTS 1 v49.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v49.1
 
-#EXTINF:-1 tvg-id="49.2" tvg-name="FOX SPORTS v49.2",FOX SPORTS v49.2
+#EXTINF:-1 tvg-id="49.2" tvg-name="FOX SPORTS 2 v49.2",FOX SPORTS 2 v49.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v49.2
@@ -421,7 +421,7 @@ http://128.230.54.128:5004/auto/v51.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v51.2
 
-#EXTINF:-1 tvg-id="51.3" tvg-name="CNN EN v51.3",CNN EN v51.3
+#EXTINF:-1 tvg-id="51.3" tvg-name="CNN EN ESPANOL v51.3",CNN EN ESPANOL v51.3
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v51.3
@@ -446,7 +446,7 @@ http://128.230.54.128:5004/auto/v52.3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v53.1
 
-#EXTINF:-1 tvg-id="53.2" tvg-name="NATIONAL GEO v53.2",NATIONAL GEO v53.2
+#EXTINF:-1 tvg-id="53.2" tvg-name="NATIONAL GEO WILD v53.2",NATIONAL GEO WILD v53.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v53.2
@@ -501,7 +501,7 @@ http://128.230.54.128:5004/auto/v56.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v56.3
 
-#EXTINF:-1 tvg-id="57.1" tvg-name="GAME SHOW v57.1",GAME SHOW v57.1
+#EXTINF:-1 tvg-id="57.1" tvg-name="GAME SHOW NETWORK v57.1",GAME SHOW NETWORK v57.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v57.1
@@ -526,7 +526,7 @@ http://128.230.54.128:5004/auto/v58.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v58.2
 
-#EXTINF:-1 tvg-id="58.3" tvg-name="BBC WORLD v58.3",BBC WORLD v58.3
+#EXTINF:-1 tvg-id="58.3" tvg-name="BBC WORLD NEWS v58.3",BBC WORLD NEWS v58.3
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v58.3
@@ -601,7 +601,7 @@ http://128.230.54.128:5004/auto/v63.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v63.2
 
-#EXTINF:-1 tvg-id="63.3" tvg-name="FX MOVIE v63.3",FX MOVIE v63.3
+#EXTINF:-1 tvg-id="63.3" tvg-name="FX MOVIE CHANNEL v63.3",FX MOVIE CHANNEL v63.3
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v63.3
@@ -636,7 +636,7 @@ http://128.230.54.128:5004/auto/v65.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v65.3
 
-#EXTINF:-1 tvg-id="66.1" tvg-name="SPORTS PASS v66.1",SPORTS PASS v66.1
+#EXTINF:-1 tvg-id="66.1" tvg-name="SPORTS PASS GUIDE v66.1",SPORTS PASS GUIDE v66.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v66.1
@@ -681,7 +681,7 @@ http://128.230.54.128:5004/auto/v74.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v74.3
 
-#EXTINF:-1 tvg-id="76.2" tvg-name="MLB STRIKE v76.2",MLB STRIKE v76.2
+#EXTINF:-1 tvg-id="76.2" tvg-name="MLB STRIKE ZONE v76.2",MLB STRIKE ZONE v76.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v76.2
@@ -721,12 +721,12 @@ http://128.230.54.128:5004/auto/v78.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v78.3
 
-#EXTINF:-1 tvg-id="79.1" tvg-name="PAC-12 BAY v79.1",PAC-12 BAY v79.1
+#EXTINF:-1 tvg-id="79.1" tvg-name="PAC-12 BAY AREA v79.1",PAC-12 BAY AREA v79.1
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v79.1
 
-#EXTINF:-1 tvg-id="79.2" tvg-name="PAC-12 LOS v79.2",PAC-12 LOS v79.2
+#EXTINF:-1 tvg-id="79.2" tvg-name="PAC-12 LOS ANGELES v79.2",PAC-12 LOS ANGELES v79.2
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v79.2
