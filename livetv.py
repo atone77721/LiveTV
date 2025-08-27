@@ -5,7 +5,7 @@ from datetime import datetime
 def create_playlist():
     try:
         # Get base URL from environment variable or use default
-        base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004/auto/v')
+        base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004/auto')
         # Remove any trailing slashes to prevent double slashes
         base_url = base_url.rstrip('/')
         
@@ -194,9 +194,9 @@ def create_playlist():
             for channel in channels:
                 # Write channel entry
                 f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel[1]}",{channel[1]}\n')
-                f.write(f'#EXTVLCOPT:http-referer={base_url}\n')
+                f.write(f'#EXTVLCOPT:http-referer={base_url}/\n')
                 f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                f.write(f'{base_url}{channel[0]}\n\n')
+                f.write(f'{base_url}/v{channel[0]}\n\n')
 
         print(f"TiviMate playlist generated: {output_file}")
         return output_file
