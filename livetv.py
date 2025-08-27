@@ -15,7 +15,7 @@ def create_playlist():
             ('10.1', 'Local Channel Guide'),
             ('10.2', 'SPECTRUM NEWS'),
             ('11.1', 'WWAY ABC'),
-            ('11.6', 'WWAY 2 CBS'),  # Updated from WSFX FOX to match your list
+            ('11.6', 'WTYH 5 CBS'),  # Updated from WSFX FOX to match your list
             ('12.1', 'WSFX FOX'),     # Updated from WSFX 2 Court to match your list
             ('12.2', 'WSFX 2 Court'), # Updated from WECT NBC to match your list
             ('12.6', 'WECT NBC'),     # Updated from WECT 2 Bounce to match your list
