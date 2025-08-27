@@ -16,7 +16,7 @@ http://128.230.54.128:5004/auto/v10.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v11.1
 
-#EXTINF:-1 tvg-id="11.6" tvg-name="WWAY 2 CBS v11.6",WWAY 2 CBS v11.6
+#EXTINF:-1 tvg-id="11.6" tvg-name="WTYH 5 CBS v11.6",WTYH 5 CBS v11.6
 #EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://128.230.54.128:5004/auto/v11.6
