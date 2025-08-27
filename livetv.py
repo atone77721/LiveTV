@@ -193,12 +193,8 @@ def create_playlist():
             # Process channels
             for channel in channels:
                 # Write channel entry
-                # Format the channel name as 'NAME vCHANNEL.NUM' (e.g., 'WWAY ABC v10.1')
-                name_parts = channel[1].split()
-                if len(name_parts) > 1:
-                    channel_name = f"{name_parts[0]} {name_parts[1]} v{channel[0]}"
-                else:
-                    channel_name = f"{channel[1]} v{channel[0]}"
+                # Format the channel name as 'FULL_NAME vCHANNEL.NUM' (e.g., 'WWAY 2 CBS v11.6')
+                channel_name = f"{channel[1]} v{channel[0]}"
                 f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel_name}",{channel_name}\n')
                 f.write(f'#EXTVLCOPT:http-referer={base_url}/\n')
                 f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
