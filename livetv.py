@@ -12,174 +12,174 @@ def create_playlist():
         # Complete channel list
         channels = [
             # Local Channels
-            ('10.1', 'SPECTRUM NEWS'),
-            ('10.2', 'WWAY ABC'),
-            ('11.1', 'WWAY 2 CBS'),
-            ('11.6', 'WSFX FOX'),
-            ('12.1', 'WSFX 2 Court'),
-            ('12.2', 'WECT NBC'),
-            ('12.6', 'WECT 2 Bounce'),
-            ('12.7', 'WWAY 3 CW'),
-            ('13.1', 'WUNC PBS'),
-            ('13.6', 'WUNC 2 PBS Kids'),
-            ('13.7', 'ION'),
-            ('23.1', 'WILM 2 Me TV'),
-            ('23.2', 'Telemundo'),
-            ('24.3', 'UNIMAS'),
-            ('25.1', 'Univision'),
-            ('25.2', 'Daystar'),
-            ('25.3', 'TBN'),
-            ('26.1', 'BALLY Sports South'),
-            ('28.1', 'DELUXE GUIDE'),
+            ('10.1', 'Local Channel Guide'),
+            ('10.2', 'SPECTRUM NEWS'),
+            ('11.1', 'WWAY ABC'),
+            ('11.6', 'WWAY 2 CBS'),  # Updated from WSFX FOX to match your list
+            ('12.1', 'WSFX FOX'),     # Updated from WSFX 2 Court to match your list
+            ('12.2', 'WSFX 2 Court'), # Updated from WECT NBC to match your list
+            ('12.6', 'WECT NBC'),     # Updated from WECT 2 Bounce to match your list
+            ('12.7', 'WECT 2 Bounce'),# Updated from WWAY 3 CW to match your list
+            ('13.1', 'WWAY 3 CW'),    # Updated from WUNC PBS to match your list
+            ('13.6', 'WUNC PBS'),     # Updated from WUNC 2 PBS Kids to match your list
+            ('13.7', 'WUNC 2 PBS Kids'), # Updated from ION to match your list
+            ('23.1', 'ION'),          # Updated from WILM 2 Me TV to match your list
+            ('23.2', 'WILM 2 Me TV'), # Updated from Telemundo to match your list
+            ('24.3', 'Telemundo'),    # Updated from UNIMAS to match your list
+            ('25.1', 'UNIMAS'),       # Updated from Univision to match your list
+            ('25.2', 'Univision'),    # Updated from Daystar to match your list
+            ('25.3', 'Daystar'),      # Updated from TBN to match your list
+            ('26.1', 'TBN'),          # Updated from BALLY Sports South to match your list
+            ('28.1', 'BALLY Sports South'), # Updated from DELUXE GUIDE to match your list
             # Entertainment
-            ('30.1', 'USA East Columbia USA'),
-            ('30.2', 'AE AETV'),
-            ('30.3', 'TNT'),
-            ('31.1', 'TBS'),
-            ('31.2', 'AMC'),
-            ('31.3', 'DISCOVERY'),
-            ('32.1', 'HISTORY HIST'),
-            ('32.2', 'FX'),
-            ('32.3', 'BBC AMERICA'),
-            ('33.1', 'SYFY'),
-            ('33.2', 'TRU TV'),
-            ('33.3', 'COMEDY CENTRAL'),
-            ('34.1', 'PARAMOUNT PAR'),
-            ('34.2', 'VH1'),
-            ('34.3', 'MTV'),
-            ('35.1', 'TV LAND'),
-            ('35.2', 'FREEFORM'),
-            ('35.3', 'HALLMARK CHANNEL'),
-            ('36.1', 'NATIONAL GEOGRAPHIC'),
-            ('36.2', 'ANIMAL PLANET'),
-            ('36.3', 'SCIENCE'),
-            ('37.1', 'AHC'),
-            ('37.2', 'HGTV'),
-            ('37.3', 'FOOD NETWORK FOOD'),
-            ('38.1', 'TRAVEL CHANNEL'),
-            ('38.2', 'TLC'),
-            ('38.3', 'BRAVO'),
-            ('39.1', 'E! E!'),
-            ('39.2', 'LIFETIME LIFE'),
-            ('39.3', 'OWN'),
-            ('40.1', 'BET'),
-            ('40.2', 'OVATION TV OVATION'),
-            ('40.3', 'CNN'),
-            ('41.1', 'FOX NEWS'),
-            ('41.2', 'MSNBC'),
-            ('41.3', 'HLN'),
-            ('42.1', 'CNBC'),
-            ('42.2', 'FOX BUSINESS NETWORK'),
-            ('42.3', 'BLOOMBERG'),
-            ('43.1', 'WEATHER CHANNEL WEATH'),
-            ('43.2', 'C-SPAN CSPAN'),
-            ('43.3', 'DISNEY CHANNEL DISN'),
-            ('44.1', 'BOOMERANG BOOM'),
-            ('44.2', 'DISNEY JR DJCH'),
-            ('44.3', 'UNIVERSAL KIDS UKIDS'),
-            ('45.1', 'NICK JR NICKJR'),
-            ('45.2', 'NICKELODEON NICK'),
-            ('45.3', 'CARTOON NETWORK TOON'),
-            ('46.1', 'DISCOVERY FAMILY DFC'),
-            ('46.2', 'CMT'),
-            ('46.3', 'GREAT AMERICAN COUNTRY GAC'),
+            ('30.1', 'DELUXE GUIDE'), # Updated from USA East Columbia USA to match your list
+            ('30.2', 'USA East Columbia USA'), # Updated from AE AETV to match your list
+            ('30.3', 'A&E'),          # Updated from TNT to match your list
+            ('31.1', 'TNT'),          # Updated from TBS to match your list
+            ('31.2', 'TBS'),          # Updated from AMC to match your list
+            ('31.3', 'AMC'),          # Updated from DISCOVERY to match your list
+            ('32.1', 'DISCOVERY'),    # Updated from HISTORY HIST to match your list
+            ('32.2', 'HISTORY'),      # Updated from FX to match your list
+            ('32.3', 'FX'),           # Updated from BBC AMERICA to match your list
+            ('33.1', 'BBC AMERICA'),  # Updated from SYFY to match your list
+            ('33.2', 'SYFY'),         # Updated from TRU TV to match your list
+            ('33.3', 'TRU TV'),       # Updated from COMEDY CENTRAL to match your list
+            ('34.1', 'COMEDY CENTRAL'), # Updated from PARAMOUNT to match your list
+            ('34.2', 'PARAMOUNT'),    # Updated from VH1 to match your list
+            ('34.3', 'VH1'),          # Updated from MTV to match your list
+            ('35.1', 'MTV'),          # Updated from TV LAND to match your list
+            ('35.2', 'TV LAND'),      # Updated from FREEFORM to match your list
+            ('35.3', 'FREEFORM'),     # Updated from HALLMARK CHANNEL to match your list
+            ('36.1', 'HALLMARK CHANNEL'), # Updated from NATIONAL GEOGRAPHIC to match your list
+            ('36.2', 'NATIONAL GEOGRAPHIC'), # Updated from ANIMAL PLANET to match your list
+            ('36.3', 'ANIMAL PLANET'), # Updated from SCIENCE to match your list
+            ('37.1', 'SCIENCE'),      # Updated from AHC to match your list
+            ('37.2', 'AHC'),          # Updated from HGTV to match your list
+            ('37.3', 'HGTV'),         # Updated from FOOD NETWORK to match your list
+            ('38.1', 'FOOD NETWORK'), # Updated from TRAVEL CHANNEL to match your list
+            ('38.2', 'TRAVEL CHANNEL'), # Updated from TLC to match your list
+            ('38.3', 'TLC'),          # Updated from BRAVO to match your list
+            ('39.1', 'BRAVO'),        # Updated from E! to match your list
+            ('39.2', 'E!'),           # Updated from LIFETIME to match your list
+            ('39.3', 'LIFETIME'),     # Updated from OWN to match your list
+            ('40.1', 'OWN'),          # Updated from BET to match your list
+            ('40.2', 'BET'),          # Updated from OVATION to match your list
+            ('40.3', 'OVATION'),      # Updated from CNN to match your list
+            ('41.1', 'CNN'),          # Updated from FOX NEWS to match your list
+            ('41.2', 'FOX NEWS'),     # Updated from MSNBC to match your list
+            ('41.3', 'MSNBC'),        # Updated from HLN to match your list
+            ('42.1', 'HLN'),          # Updated from CNBC to match your list
+            ('42.2', 'CNBC'),         # Updated from FOX BUSINESS to match your list
+            ('42.3', 'FOX BUSINESS'), # Updated from BLOOMBERG to match your list
+            ('43.1', 'BLOOMBERG'),    # Updated from WEATHER CHANNEL to match your list
+            ('43.2', 'WEATHER CHANNEL'), # Updated from C-SPAN to match your list
+            ('43.3', 'C-SPAN'),       # Updated from DISNEY CHANNEL to match your list
+            ('44.1', 'DISNEY CHANNEL'), # Updated from BOOMERANG to match your list
+            ('44.2', 'BOOMERANG'),    # Updated from DISNEY JR to match your list
+            ('44.3', 'DISNEY JR'),    # Updated from UNIVERSAL KIDS to match your list
+            ('45.1', 'UNIVERSAL KIDS'), # Updated from NICK JR to match your list
+            ('45.2', 'NICK JR'),      # Updated from NICKELODEON to match your list
+            ('45.3', 'NICKELODEON'),  # Updated from CARTOON NETWORK to match your list
+            ('46.1', 'CARTOON NETWORK'), # Updated from DISCOVERY FAMILY to match your list
+            ('46.2', 'DISCOVERY FAMILY'), # Updated from CMT to match your list
+            ('46.3', 'CMT'),          # Updated from GREAT AMERICAN COUNTRY to match your list
             # Sports
-            ('47.1', 'ESPN'),
-            ('47.2', 'ESPN2'),
-            ('47.3', 'DELUXE GUIDE 2'),
-            ('48.1', 'NBC SPORTS NETWORK NBCSN'),
-            ('48.2', 'SEC NETWORK SEC'),
-            ('48.3', 'FOX SPORTS 1 FS1'),
-            ('49.1', 'FOX SPORTS 2 FS2'),
-            ('49.2', 'MOTORTREND MT'),
-            ('49.3', 'TCM'),
-            ('50.1', 'HSN'),
-            ('50.2', 'EWTN'),
-            ('50.3', 'SHOP HQ'),
-            ('51.1', 'QVC'),
-            ('51.2', 'CNN EN ESPANOL CNNE'),
-            ('51.3', 'FXX'),
-            ('52.1', 'MTV2'),
-            ('52.2', 'MTV CLASSIC ROCK'),
-            ('52.3', 'UP'),
-            ('53.1', 'NATIONAL GEO WILD'),
-            ('53.2', 'SMITHSONIAN CHANNEL'),
-            ('53.3', 'VICELAND VICE'),
-            ('54.1', 'FYI'),
-            ('54.2', 'DESTINATION AMERICA'),
-            ('54.3', 'INVESTIGATION DISCOVERY'),
-            ('55.1', 'ACCU WEATHER'),
-            ('55.2', 'COOKING CHANNEL COOK'),
-            ('55.3', 'OXYGEN'),
-            ('56.1', 'WE TV'),
-            ('56.2', 'POP'),
-            ('56.3', 'GAME SHOW NETWORK'),
-            ('57.1', 'LOGO'),
-            ('57.2', 'DISCOVERY LIFE'),
-            ('57.3', 'BET HER'),
-            ('58.1', 'TV ONE'),
-            ('58.2', 'BBC WORLD NEWS'),
-            ('58.3', 'NICKTOONS'),
-            ('59.1', 'TEENNICK'),
-            ('59.2', 'DISNEY XD'),
-            ('59.3', 'MTV LIVE'),
-            ('60.1', 'REVOLT RVLT'),
-            ('60.2', 'FUSE'),
-            ('60.3', 'INSP'),
-            ('61.1', 'SUNDANCETV SUNDANC'),
-            ('61.2', 'LMN'),
-            ('61.3', 'IFC'),
-            ('62.1', 'HALLMARK MOVIES HMM'),
-            ('62.2', 'BET SOUL BETSOUL'),
-            ('62.3', 'PAC-12 NETWORK PAC12'),
-            ('63.1', 'BYU TV BYUTV'),
-            ('63.2', 'FX MOVIE CHANNEL FXM'),
-            ('63.3', 'IMPACT NETWORK IMPCNET'),
-            ('64.1', 'DIY NETWORK DIY'),
-            ('64.2', 'MTVU'),
-            ('64.3', 'NEWSMAX TV NEWSMX'),
+            ('47.1', 'GREAT AMERICAN COUNTRY'), # Updated from ESPN to match your list
+            ('47.2', 'ESPN'),         # Updated from ESPN2 to match your list
+            ('47.3', 'ESPN2'),        # Updated from DELUXE GUIDE 2 to match your list
+            ('48.1', 'DELUXE GUIDE 2'), # Updated from NBC SPORTS NETWORK to match your list
+            ('48.2', 'NBC SPORTS'),   # Updated from SEC NETWORK to match your list
+            ('48.3', 'SEC NETWORK'),  # Updated from FOX SPORTS 1 to match your list
+            ('49.1', 'FOX SPORTS 1'), # Updated from FOX SPORTS 2 to match your list
+            ('49.2', 'FOX SPORTS 2'), # Updated from MOTORTREND to match your list
+            ('49.3', 'MOTORTREND'),   # Updated from TCM to match your list
+            ('50.1', 'TCM'),          # Updated from HSN to match your list
+            ('50.2', 'HSN'),          # Updated from EWTN to match your list
+            ('50.3', 'EWTN'),         # Updated from SHOP HQ to match your list
+            ('51.1', 'SHOP HQ'),      # Updated from QVC to match your list
+            ('51.2', 'QVC'),          # Updated from CNN EN ESPANOL to match your list
+            ('51.3', 'CNN EN ESPANOL'), # Updated from FXX to match your list
+            ('52.1', 'FXX'),          # Updated from MTV2 to match your list
+            ('52.2', 'MTV2'),         # Updated from MTV CLASSIC to match your list
+            ('52.3', 'MTV CLASSIC'),  # Updated from UP to match your list
+            ('53.1', 'UP'),           # Updated from NATIONAL GEO WILD to match your list
+            ('53.2', 'NATIONAL GEO WILD'), # Updated from SMITHSONIAN to match your list
+            ('53.3', 'SMITHSONIAN'),  # Updated from VICELAND to match your list
+            ('54.1', 'VICELAND'),     # Updated from FYI to match your list
+            ('54.2', 'FYI'),          # Updated from DESTINATION AMERICA to match your list
+            ('54.3', 'DESTINATION AMERICA'), # Updated from INVESTIGATION DISCOVERY to match your list
+            ('55.1', 'INVESTIGATION DISCOVERY'), # Updated from ACCU WEATHER to match your list
+            ('55.2', 'ACCU WEATHER'), # Updated from COOKING CHANNEL to match your list
+            ('55.3', 'COOKING CHANNEL'), # Updated from OXYGEN to match your list
+            ('56.1', 'OXYGEN'),       # Updated from WE TV to match your list
+            ('56.2', 'WE TV'),        # Updated from POP to match your list
+            ('56.3', 'POP'),          # Updated from GAME SHOW NETWORK to match your list
+            ('57.1', 'GAME SHOW NETWORK'), # Updated from LOGO to match your list
+            ('57.2', 'LOGO'),         # Updated from DISCOVERY LIFE to match your list
+            ('57.3', 'DISCOVERY LIFE'), # Updated from BET HER to match your list
+            ('58.1', 'BET HER'),      # Updated from TV ONE to match your list
+            ('58.2', 'TV ONE'),       # Updated from BBC WORLD NEWS to match your list
+            ('58.3', 'BBC WORLD NEWS'), # Updated from NICKTOONS to match your list
+            ('59.1', 'NICKTOONS'),    # Updated from TEENNICK to match your list
+            ('59.2', 'TEENNICK'),     # Updated from DISNEY XD to match your list
+            ('59.3', 'DISNEY XD'),    # Updated from MTV LIVE to match your list
+            ('60.1', 'MTV LIVE'),     # Updated from REVOLT to match your list
+            ('60.2', 'REVOLT'),       # Updated from FUSE to match your list
+            ('60.3', 'FUSE'),         # Updated from INSP to match your list
+            ('61.1', 'INSP'),         # Updated from SUNDANCETV to match your list
+            ('61.2', 'SUNDANCETV'),   # Updated from LMN to match your list
+            ('61.3', 'LMN'),          # Updated from IFC to match your list
+            ('62.1', 'IFC'),          # Updated from HALLMARK MOVIES to match your list
+            ('62.2', 'HALLMARK MOVIES'), # Updated from BET SOUL to match your list
+            ('62.3', 'BET SOUL'),     # Updated from PAC-12 NETWORK to match your list
+            ('63.1', 'PAC-12 NETWORK'), # Updated from BYU TV to match your list
+            ('63.2', 'BYU TV'),       # Updated from FX MOVIE CHANNEL to match your list
+            ('63.3', 'FX MOVIE CHANNEL'), # Updated from IMPACT NETWORK to match your list
+            ('64.1', 'IMPACT NETWORK'), # Updated from DIY NETWORK to match your list
+            ('64.2', 'DIY NETWORK'),  # Updated from MTVU to match your list
+            ('64.3', 'MTVU'),         # Updated from NEWSMAX to match your list
             # Sports Pass
-            ('65.1', 'BIG TEN BIGTEN'),
-            ('65.2', 'ACC NETWORK ACC'),
-            ('65.3', 'BEIN SPORTS BEIN'),
-            ('66.1', 'CBS SPORTS NETWORK'),
-            ('66.2', 'ESPN DEPORTES ESPND'),
-            ('69.1', 'SPORTS PASS GUIDE'),
-            ('69.2', 'BEIN SPORTS BEIN'),
-            ('70.1', 'CBS SPORTS NETWORK'),
-            ('73.2', 'ESPN DEPORTES ESPND'),
-            ('74.1', 'ESPN NEWS'),
-            ('74.2', 'ESPNU'),
-            ('74.3', 'FOX DEPORTES FXDEP'),
-            ('76.2', 'GOLF CHANNEL GOLF'),
-            ('76.3', 'MLB NETWORK MLBN'),
-            ('77.1', 'MLB STRIKE ZONE MLBNSZ'),
-            ('77.2', 'NBA TV NBATV'),
-            ('77.3', 'NFL NETWORK NFLNET'),
-            ('78.1', 'NFL REDZONE NFLNRZ'),
-            ('78.2', 'NHL NETWORK NHLNET'),
-            ('78.3', 'THE OLYMPIC CHANNEL OLY'),
-            ('79.1', 'OUTDOOR CHANNEL OUTD'),
-            ('79.2', 'PAC-12 ARIZONA PAC12AZ'),
-            ('79.3', 'PAC-12 BAY AREA PAC12BA'),
-            ('80.1', 'PAC-12 LOS ANGELES PAC12LA'),
-            ('80.2', 'PAC-12 MOUNTAIN PAC12MT'),
-            ('80.3', 'PAC-12 OREGON PAC12OR'),
-            ('81.1', 'PAC-12 WASHINGTON PAC12WA'),
-            ('81.2', 'SEC ALTERNATE SEC2'),
-            ('81.3', 'TENNIS CHANNEL TENNIS'),
-            ('82.1', 'TVG'),
-            ('82.2', 'TUDN'),
-            ('82.3', 'WILLOW CRICKET WILLOW'),
+            ('65.1', 'NEWSMAX'),      # Updated from BIG TEN to match your list
+            ('65.2', 'BIG TEN'),      # Updated from ACC NETWORK to match your list
+            ('65.3', 'ACC NETWORK'),  # Updated from BEIN SPORTS to match your list
+            ('66.1', 'SPORTS PASS GUIDE'), # Updated from CBS SPORTS to match your list
+            ('66.2', 'BEIN SPORTS'),  # Updated from ESPN DEPORTES to match your list
+            ('69.1', 'CBS SPORTS'),   # Updated from SPORTS PASS GUIDE to match your list
+            ('69.2', 'ESPN DEPORTES'), # Updated from BEIN SPORTS to match your list
+            ('70.1', 'ESPN NEWS'),    # Updated from CBS SPORTS to match your list
+            ('73.2', 'ESPNU'),        # Updated from ESPN DEPORTES to match your list
+            ('74.1', 'FOX DEPORTES'), # Updated from ESPN NEWS to match your list
+            ('74.2', 'GOLF CHANNEL'), # Updated from ESPNU to match your list
+            ('74.3', 'MLB NETWORK'),  # Updated from FOX DEPORTES to match your list
+            ('76.2', 'MLB STRIKE ZONE'), # Updated from GOLF CHANNEL to match your list
+            ('76.3', 'NBA TV'),       # Updated from MLB NETWORK to match your list
+            ('77.1', 'NFL NETWORK'),  # Updated from MLB STRIKE ZONE to match your list
+            ('77.2', 'NFL REDZONE'),  # Updated from NBA TV to match your list
+            ('77.3', 'NHL NETWORK'),  # Updated from NFL NETWORK to match your list
+            ('78.1', 'OLYMPIC CHANNEL'), # Updated from NFL REDZONE to match your list
+            ('78.2', 'OUTDOOR CHANNEL'), # Updated from NHL NETWORK to match your list
+            ('78.3', 'PAC-12 ARIZONA'), # Updated from OLYMPIC CHANNEL to match your list
+            ('79.1', 'PAC-12 BAY AREA'), # Updated from OUTDOOR CHANNEL to match your list
+            ('79.2', 'PAC-12 LOS ANGELES'), # Updated from PAC-12 ARIZONA to match your list
+            ('79.3', 'PAC-12 MOUNTAIN'), # Updated from PAC-12 BAY AREA to match your list
+            ('80.1', 'PAC-12 OREGON'), # Updated from PAC-12 LOS ANGELES to match your list
+            ('80.2', 'PAC-12 WASHINGTON'), # Updated from PAC-12 MOUNTAIN to match your list
+            ('80.3', 'SEC ALTERNATE'), # Updated from PAC-12 OREGON to match your list
+            ('81.1', 'TENNIS CHANNEL'), # Updated from PAC-12 WASHINGTON to match your list
+            ('81.2', 'TVG'),          # Updated from SEC ALTERNATE to match your list
+            ('81.3', 'TUDN'),         # Updated from TENNIS CHANNEL to match your list
+            ('82.1', 'WILLOW CRICKET'), # Updated from TVG to match your list
+            ('82.2', 'HBO GUIDE'),    # Updated from TUDN to match your list
+            ('82.3', 'HBO'),          # Updated from WILLOW CRICKET to match your list
             # HBO Channels
-            ('98.1', 'HBO GUIDE'),
-            ('98.2', 'HBO'),
-            ('98.3', 'HBO 2 HBO2'),
-            ('98.4', 'HBO SIGNATURE HBOSIG'),
-            ('99.1', 'HBO COMEDY HBOC'),
-            ('99.2', 'HBO FAMILY HBOF'),
-            ('99.3', 'HBO LATINO HBOLAT'),
-            ('99.4', 'HBO ZONE HBOZ')
+            ('98.1', 'HBO 2'),        # Updated from HBO GUIDE to match your list
+            ('98.2', 'HBO SIGNATURE'), # Updated from HBO to match your list
+            ('98.3', 'HBO COMEDY'),   # Updated from HBO 2 to match your list
+            ('98.4', 'HBO FAMILY'),   # Updated from HBO SIGNATURE to match your list
+            ('99.1', 'HBO LATINO'),   # Updated from HBO COMEDY to match your list
+            ('99.2', 'HBO ZONE'),     # Updated from HBO FAMILY to match your list
+            ('99.3', 'HBO'),          # Updated from HBO LATINO to match your list
+            ('99.4', 'HBO 2')         # Updated from HBO ZONE to match your list
         ]
         
         # Generate TiviMate compatible M3U
@@ -193,7 +193,9 @@ def create_playlist():
             # Process channels
             for channel in channels:
                 # Write channel entry
-                f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel[1]}",{channel[1]}\n')
+                # Format the channel name as 'NAME vCHANNEL.NUM' (e.g., 'WWAY ABC v10.1')
+                channel_name = f"{channel[1].split(' ')[0]} {channel[1].split(' ')[1]} v{channel[0]}"
+                f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel_name}",{channel_name}\n')
                 f.write(f'#EXTVLCOPT:http-referer={base_url}/\n')
                 f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
                 f.write(f'{base_url}/v{channel[0]}\n\n')
