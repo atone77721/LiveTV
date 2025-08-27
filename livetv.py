@@ -4,10 +4,10 @@ from datetime import datetime
 
 def create_playlist():
     try:
-        # Get base URL from environment variable
-        base_url = os.getenv('LIVETV_BASE_URL', 'http://127.0.0.1:5004/auto/')
-        if not base_url.endswith('/'):
-            base_url += '/'
+        # Get base URL from environment variable or use default
+        base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004/auto/v')
+        # Remove any trailing slashes to prevent double slashes
+        base_url = base_url.rstrip('/')
         
         # Complete channel list
         channels = [
