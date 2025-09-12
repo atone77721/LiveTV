@@ -1,14 +1,16 @@
-# livetv.py
 import os
 from datetime import datetime
 
 def create_playlist():
     try:
         # Get base URL from environment variable or use default
-        base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004/auto')
+        base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004')
         # Remove any trailing slashes to prevent double slashes
         base_url = base_url.rstrip('/')
-        
+
+        # Get number of tuners from environment variable or use default
+        num_tuners = int(os.getenv('HDHOMERUN_NUM_TUNERS', 3))
+
         # Complete channel list
         channels = [
             # Local Channels
@@ -181,24 +183,25 @@ def create_playlist():
             ('99.3', 'HBO'),          # Updated from HBO LATINO to match your list
             ('99.4', 'HBO 2')         # Updated from HBO ZONE to match your list
         ]
-        
+
         # Generate TiviMate compatible M3U
         output_file = 'tivimate_playlist.m3u'
-        
+
         with open(output_file, 'w', encoding='utf-8') as f:
             # M3U Header
             f.write('#EXTM3U x-tvg-url=""\n')
             f.write(f'#PLAYLIST:{datetime.utcnow().strftime("%Y-%m-%d")}\n\n')
-            
+
             # Process channels
-            for channel in channels:
+            for i, channel in enumerate(channels):
+                tuner = i % num_tuners
                 # Write channel entry
                 # Format the channel name as 'FULL_NAME vCHANNEL.NUM' (e.g., 'WWAY 2 CBS v11.6')
                 channel_name = f"{channel[1]} v{channel[0]}"
                 f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel_name}",{channel_name}\n')
-                f.write(f'#EXTVLCOPT:http-referer={base_url}/\n')
+                f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{tuner}/\n')
                 f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                f.write(f'{base_url}/v{channel[0]}\n\n')
+                f.write(f'{base_url}/tuner{tuner}/v{channel[0]}\n\n')
 
         print(f"TiviMate playlist generated: {output_file}")
         return output_file
