@@ -2,822 +2,822 @@
 #PLAYLIST:2025-09-12
 
 #EXTINF:-1 tvg-id="10.1" tvg-name="Local Channel Guide v10.1",Local Channel Guide v10.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v10.1
+http://128.230.54.128:5004/auto/tuner0/v10.1
 
 #EXTINF:-1 tvg-id="10.2" tvg-name="SPECTRUM NEWS v10.2",SPECTRUM NEWS v10.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v10.2
+http://128.230.54.128:5004/auto/tuner1/v10.2
 
 #EXTINF:-1 tvg-id="11.1" tvg-name="WWAY ABC v11.1",WWAY ABC v11.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v11.1
+http://128.230.54.128:5004/auto/tuner2/v11.1
 
 #EXTINF:-1 tvg-id="11.6" tvg-name="WTYH 5 CBS v11.6",WTYH 5 CBS v11.6
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v11.6
+http://128.230.54.128:5004/auto/tuner0/v11.6
 
 #EXTINF:-1 tvg-id="12.1" tvg-name="WSFX FOX v12.1",WSFX FOX v12.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v12.1
+http://128.230.54.128:5004/auto/tuner1/v12.1
 
 #EXTINF:-1 tvg-id="12.2" tvg-name="WSFX 2 Court v12.2",WSFX 2 Court v12.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v12.2
+http://128.230.54.128:5004/auto/tuner2/v12.2
 
 #EXTINF:-1 tvg-id="12.6" tvg-name="WECT NBC v12.6",WECT NBC v12.6
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v12.6
+http://128.230.54.128:5004/auto/tuner0/v12.6
 
 #EXTINF:-1 tvg-id="12.7" tvg-name="WECT 2 Bounce v12.7",WECT 2 Bounce v12.7
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v12.7
+http://128.230.54.128:5004/auto/tuner1/v12.7
 
 #EXTINF:-1 tvg-id="13.1" tvg-name="WWAY 3 CW v13.1",WWAY 3 CW v13.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v13.1
+http://128.230.54.128:5004/auto/tuner2/v13.1
 
 #EXTINF:-1 tvg-id="13.6" tvg-name="WUNC PBS v13.6",WUNC PBS v13.6
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v13.6
+http://128.230.54.128:5004/auto/tuner0/v13.6
 
 #EXTINF:-1 tvg-id="13.7" tvg-name="WUNC 2 PBS Kids v13.7",WUNC 2 PBS Kids v13.7
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v13.7
+http://128.230.54.128:5004/auto/tuner1/v13.7
 
 #EXTINF:-1 tvg-id="23.1" tvg-name="ION v23.1",ION v23.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v23.1
+http://128.230.54.128:5004/auto/tuner2/v23.1
 
 #EXTINF:-1 tvg-id="23.2" tvg-name="WILM 2 Me TV v23.2",WILM 2 Me TV v23.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v23.2
+http://128.230.54.128:5004/auto/tuner0/v23.2
 
 #EXTINF:-1 tvg-id="24.3" tvg-name="Telemundo v24.3",Telemundo v24.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v24.3
+http://128.230.54.128:5004/auto/tuner1/v24.3
 
 #EXTINF:-1 tvg-id="25.1" tvg-name="UNIMAS v25.1",UNIMAS v25.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v25.1
+http://128.230.54.128:5004/auto/tuner2/v25.1
 
 #EXTINF:-1 tvg-id="25.2" tvg-name="Univision v25.2",Univision v25.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v25.2
+http://128.230.54.128:5004/auto/tuner0/v25.2
 
 #EXTINF:-1 tvg-id="25.3" tvg-name="Daystar v25.3",Daystar v25.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v25.3
+http://128.230.54.128:5004/auto/tuner1/v25.3
 
 #EXTINF:-1 tvg-id="26.1" tvg-name="TBN v26.1",TBN v26.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v26.1
+http://128.230.54.128:5004/auto/tuner2/v26.1
 
 #EXTINF:-1 tvg-id="28.1" tvg-name="BALLY Sports South v28.1",BALLY Sports South v28.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v28.1
+http://128.230.54.128:5004/auto/tuner0/v28.1
 
 #EXTINF:-1 tvg-id="30.1" tvg-name="DELUXE GUIDE v30.1",DELUXE GUIDE v30.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v30.1
+http://128.230.54.128:5004/auto/tuner1/v30.1
 
 #EXTINF:-1 tvg-id="30.2" tvg-name="USA East Columbia USA v30.2",USA East Columbia USA v30.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v30.2
+http://128.230.54.128:5004/auto/tuner2/v30.2
 
 #EXTINF:-1 tvg-id="30.3" tvg-name="A&E v30.3",A&E v30.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v30.3
+http://128.230.54.128:5004/auto/tuner0/v30.3
 
 #EXTINF:-1 tvg-id="31.1" tvg-name="TNT v31.1",TNT v31.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v31.1
+http://128.230.54.128:5004/auto/tuner1/v31.1
 
 #EXTINF:-1 tvg-id="31.2" tvg-name="TBS v31.2",TBS v31.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v31.2
+http://128.230.54.128:5004/auto/tuner2/v31.2
 
 #EXTINF:-1 tvg-id="31.3" tvg-name="AMC v31.3",AMC v31.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v31.3
+http://128.230.54.128:5004/auto/tuner0/v31.3
 
 #EXTINF:-1 tvg-id="32.1" tvg-name="DISCOVERY v32.1",DISCOVERY v32.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v32.1
+http://128.230.54.128:5004/auto/tuner1/v32.1
 
 #EXTINF:-1 tvg-id="32.2" tvg-name="HISTORY v32.2",HISTORY v32.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v32.2
+http://128.230.54.128:5004/auto/tuner2/v32.2
 
 #EXTINF:-1 tvg-id="32.3" tvg-name="FX v32.3",FX v32.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v32.3
+http://128.230.54.128:5004/auto/tuner0/v32.3
 
 #EXTINF:-1 tvg-id="33.1" tvg-name="BBC AMERICA v33.1",BBC AMERICA v33.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v33.1
+http://128.230.54.128:5004/auto/tuner1/v33.1
 
 #EXTINF:-1 tvg-id="33.2" tvg-name="SYFY v33.2",SYFY v33.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v33.2
+http://128.230.54.128:5004/auto/tuner2/v33.2
 
 #EXTINF:-1 tvg-id="33.3" tvg-name="TRU TV v33.3",TRU TV v33.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v33.3
+http://128.230.54.128:5004/auto/tuner0/v33.3
 
 #EXTINF:-1 tvg-id="34.1" tvg-name="COMEDY CENTRAL v34.1",COMEDY CENTRAL v34.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v34.1
+http://128.230.54.128:5004/auto/tuner1/v34.1
 
 #EXTINF:-1 tvg-id="34.2" tvg-name="PARAMOUNT v34.2",PARAMOUNT v34.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v34.2
+http://128.230.54.128:5004/auto/tuner2/v34.2
 
 #EXTINF:-1 tvg-id="34.3" tvg-name="VH1 v34.3",VH1 v34.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v34.3
+http://128.230.54.128:5004/auto/tuner0/v34.3
 
 #EXTINF:-1 tvg-id="35.1" tvg-name="MTV v35.1",MTV v35.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v35.1
+http://128.230.54.128:5004/auto/tuner1/v35.1
 
 #EXTINF:-1 tvg-id="35.2" tvg-name="TV LAND v35.2",TV LAND v35.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v35.2
+http://128.230.54.128:5004/auto/tuner2/v35.2
 
 #EXTINF:-1 tvg-id="35.3" tvg-name="FREEFORM v35.3",FREEFORM v35.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v35.3
+http://128.230.54.128:5004/auto/tuner0/v35.3
 
 #EXTINF:-1 tvg-id="36.1" tvg-name="HALLMARK CHANNEL v36.1",HALLMARK CHANNEL v36.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v36.1
+http://128.230.54.128:5004/auto/tuner1/v36.1
 
 #EXTINF:-1 tvg-id="36.2" tvg-name="NATIONAL GEOGRAPHIC v36.2",NATIONAL GEOGRAPHIC v36.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v36.2
+http://128.230.54.128:5004/auto/tuner2/v36.2
 
 #EXTINF:-1 tvg-id="36.3" tvg-name="ANIMAL PLANET v36.3",ANIMAL PLANET v36.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v36.3
+http://128.230.54.128:5004/auto/tuner0/v36.3
 
 #EXTINF:-1 tvg-id="37.1" tvg-name="SCIENCE v37.1",SCIENCE v37.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v37.1
+http://128.230.54.128:5004/auto/tuner1/v37.1
 
 #EXTINF:-1 tvg-id="37.2" tvg-name="AHC v37.2",AHC v37.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v37.2
+http://128.230.54.128:5004/auto/tuner2/v37.2
 
 #EXTINF:-1 tvg-id="37.3" tvg-name="HGTV v37.3",HGTV v37.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v37.3
+http://128.230.54.128:5004/auto/tuner0/v37.3
 
 #EXTINF:-1 tvg-id="38.1" tvg-name="FOOD NETWORK v38.1",FOOD NETWORK v38.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v38.1
+http://128.230.54.128:5004/auto/tuner1/v38.1
 
 #EXTINF:-1 tvg-id="38.2" tvg-name="TRAVEL CHANNEL v38.2",TRAVEL CHANNEL v38.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v38.2
+http://128.230.54.128:5004/auto/tuner2/v38.2
 
 #EXTINF:-1 tvg-id="38.3" tvg-name="TLC v38.3",TLC v38.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v38.3
+http://128.230.54.128:5004/auto/tuner0/v38.3
 
 #EXTINF:-1 tvg-id="39.1" tvg-name="BRAVO v39.1",BRAVO v39.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v39.1
+http://128.230.54.128:5004/auto/tuner1/v39.1
 
 #EXTINF:-1 tvg-id="39.2" tvg-name="E! v39.2",E! v39.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v39.2
+http://128.230.54.128:5004/auto/tuner2/v39.2
 
 #EXTINF:-1 tvg-id="39.3" tvg-name="LIFETIME v39.3",LIFETIME v39.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v39.3
+http://128.230.54.128:5004/auto/tuner0/v39.3
 
 #EXTINF:-1 tvg-id="40.1" tvg-name="OWN v40.1",OWN v40.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v40.1
+http://128.230.54.128:5004/auto/tuner1/v40.1
 
 #EXTINF:-1 tvg-id="40.2" tvg-name="BET v40.2",BET v40.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v40.2
+http://128.230.54.128:5004/auto/tuner2/v40.2
 
 #EXTINF:-1 tvg-id="40.3" tvg-name="OVATION v40.3",OVATION v40.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v40.3
+http://128.230.54.128:5004/auto/tuner0/v40.3
 
 #EXTINF:-1 tvg-id="41.1" tvg-name="CNN v41.1",CNN v41.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v41.1
+http://128.230.54.128:5004/auto/tuner1/v41.1
 
 #EXTINF:-1 tvg-id="41.2" tvg-name="FOX NEWS v41.2",FOX NEWS v41.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v41.2
+http://128.230.54.128:5004/auto/tuner2/v41.2
 
 #EXTINF:-1 tvg-id="41.3" tvg-name="MSNBC v41.3",MSNBC v41.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v41.3
+http://128.230.54.128:5004/auto/tuner0/v41.3
 
 #EXTINF:-1 tvg-id="42.1" tvg-name="HLN v42.1",HLN v42.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v42.1
+http://128.230.54.128:5004/auto/tuner1/v42.1
 
 #EXTINF:-1 tvg-id="42.2" tvg-name="CNBC v42.2",CNBC v42.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v42.2
+http://128.230.54.128:5004/auto/tuner2/v42.2
 
 #EXTINF:-1 tvg-id="42.3" tvg-name="FOX BUSINESS v42.3",FOX BUSINESS v42.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v42.3
+http://128.230.54.128:5004/auto/tuner0/v42.3
 
 #EXTINF:-1 tvg-id="43.1" tvg-name="BLOOMBERG v43.1",BLOOMBERG v43.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v43.1
+http://128.230.54.128:5004/auto/tuner1/v43.1
 
 #EXTINF:-1 tvg-id="43.2" tvg-name="WEATHER CHANNEL v43.2",WEATHER CHANNEL v43.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v43.2
+http://128.230.54.128:5004/auto/tuner2/v43.2
 
 #EXTINF:-1 tvg-id="43.3" tvg-name="C-SPAN v43.3",C-SPAN v43.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v43.3
+http://128.230.54.128:5004/auto/tuner0/v43.3
 
 #EXTINF:-1 tvg-id="44.1" tvg-name="DISNEY CHANNEL v44.1",DISNEY CHANNEL v44.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v44.1
+http://128.230.54.128:5004/auto/tuner1/v44.1
 
 #EXTINF:-1 tvg-id="44.2" tvg-name="BOOMERANG v44.2",BOOMERANG v44.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v44.2
+http://128.230.54.128:5004/auto/tuner2/v44.2
 
 #EXTINF:-1 tvg-id="44.3" tvg-name="DISNEY JR v44.3",DISNEY JR v44.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v44.3
+http://128.230.54.128:5004/auto/tuner0/v44.3
 
 #EXTINF:-1 tvg-id="45.1" tvg-name="UNIVERSAL KIDS v45.1",UNIVERSAL KIDS v45.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v45.1
+http://128.230.54.128:5004/auto/tuner1/v45.1
 
 #EXTINF:-1 tvg-id="45.2" tvg-name="NICK JR v45.2",NICK JR v45.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v45.2
+http://128.230.54.128:5004/auto/tuner2/v45.2
 
 #EXTINF:-1 tvg-id="45.3" tvg-name="NICKELODEON v45.3",NICKELODEON v45.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v45.3
+http://128.230.54.128:5004/auto/tuner0/v45.3
 
 #EXTINF:-1 tvg-id="46.1" tvg-name="CARTOON NETWORK v46.1",CARTOON NETWORK v46.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v46.1
+http://128.230.54.128:5004/auto/tuner1/v46.1
 
 #EXTINF:-1 tvg-id="46.2" tvg-name="DISCOVERY FAMILY v46.2",DISCOVERY FAMILY v46.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v46.2
+http://128.230.54.128:5004/auto/tuner2/v46.2
 
 #EXTINF:-1 tvg-id="46.3" tvg-name="CMT v46.3",CMT v46.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v46.3
+http://128.230.54.128:5004/auto/tuner0/v46.3
 
 #EXTINF:-1 tvg-id="47.1" tvg-name="GREAT AMERICAN COUNTRY v47.1",GREAT AMERICAN COUNTRY v47.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v47.1
+http://128.230.54.128:5004/auto/tuner1/v47.1
 
 #EXTINF:-1 tvg-id="47.2" tvg-name="ESPN v47.2",ESPN v47.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v47.2
+http://128.230.54.128:5004/auto/tuner2/v47.2
 
 #EXTINF:-1 tvg-id="47.3" tvg-name="ESPN2 v47.3",ESPN2 v47.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v47.3
+http://128.230.54.128:5004/auto/tuner0/v47.3
 
 #EXTINF:-1 tvg-id="48.1" tvg-name="DELUXE GUIDE 2 v48.1",DELUXE GUIDE 2 v48.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v48.1
+http://128.230.54.128:5004/auto/tuner1/v48.1
 
 #EXTINF:-1 tvg-id="48.2" tvg-name="NBC SPORTS v48.2",NBC SPORTS v48.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v48.2
+http://128.230.54.128:5004/auto/tuner2/v48.2
 
 #EXTINF:-1 tvg-id="48.3" tvg-name="SEC NETWORK v48.3",SEC NETWORK v48.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v48.3
+http://128.230.54.128:5004/auto/tuner0/v48.3
 
 #EXTINF:-1 tvg-id="49.1" tvg-name="FOX SPORTS 1 v49.1",FOX SPORTS 1 v49.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v49.1
+http://128.230.54.128:5004/auto/tuner1/v49.1
 
 #EXTINF:-1 tvg-id="49.2" tvg-name="FOX SPORTS 2 v49.2",FOX SPORTS 2 v49.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v49.2
+http://128.230.54.128:5004/auto/tuner2/v49.2
 
 #EXTINF:-1 tvg-id="49.3" tvg-name="MOTORTREND v49.3",MOTORTREND v49.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v49.3
+http://128.230.54.128:5004/auto/tuner0/v49.3
 
 #EXTINF:-1 tvg-id="50.1" tvg-name="TCM v50.1",TCM v50.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v50.1
+http://128.230.54.128:5004/auto/tuner1/v50.1
 
 #EXTINF:-1 tvg-id="50.2" tvg-name="HSN v50.2",HSN v50.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v50.2
+http://128.230.54.128:5004/auto/tuner2/v50.2
 
 #EXTINF:-1 tvg-id="50.3" tvg-name="EWTN v50.3",EWTN v50.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v50.3
+http://128.230.54.128:5004/auto/tuner0/v50.3
 
 #EXTINF:-1 tvg-id="51.1" tvg-name="SHOP HQ v51.1",SHOP HQ v51.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v51.1
+http://128.230.54.128:5004/auto/tuner1/v51.1
 
 #EXTINF:-1 tvg-id="51.2" tvg-name="QVC v51.2",QVC v51.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v51.2
+http://128.230.54.128:5004/auto/tuner2/v51.2
 
 #EXTINF:-1 tvg-id="51.3" tvg-name="CNN EN ESPANOL v51.3",CNN EN ESPANOL v51.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v51.3
+http://128.230.54.128:5004/auto/tuner0/v51.3
 
 #EXTINF:-1 tvg-id="52.1" tvg-name="FXX v52.1",FXX v52.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v52.1
+http://128.230.54.128:5004/auto/tuner1/v52.1
 
 #EXTINF:-1 tvg-id="52.2" tvg-name="MTV2 v52.2",MTV2 v52.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v52.2
+http://128.230.54.128:5004/auto/tuner2/v52.2
 
 #EXTINF:-1 tvg-id="52.3" tvg-name="MTV CLASSIC v52.3",MTV CLASSIC v52.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v52.3
+http://128.230.54.128:5004/auto/tuner0/v52.3
 
 #EXTINF:-1 tvg-id="53.1" tvg-name="UP v53.1",UP v53.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v53.1
+http://128.230.54.128:5004/auto/tuner1/v53.1
 
 #EXTINF:-1 tvg-id="53.2" tvg-name="NATIONAL GEO WILD v53.2",NATIONAL GEO WILD v53.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v53.2
+http://128.230.54.128:5004/auto/tuner2/v53.2
 
 #EXTINF:-1 tvg-id="53.3" tvg-name="SMITHSONIAN v53.3",SMITHSONIAN v53.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v53.3
+http://128.230.54.128:5004/auto/tuner0/v53.3
 
 #EXTINF:-1 tvg-id="54.1" tvg-name="VICELAND v54.1",VICELAND v54.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v54.1
+http://128.230.54.128:5004/auto/tuner1/v54.1
 
 #EXTINF:-1 tvg-id="54.2" tvg-name="FYI v54.2",FYI v54.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v54.2
+http://128.230.54.128:5004/auto/tuner2/v54.2
 
 #EXTINF:-1 tvg-id="54.3" tvg-name="DESTINATION AMERICA v54.3",DESTINATION AMERICA v54.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v54.3
+http://128.230.54.128:5004/auto/tuner0/v54.3
 
 #EXTINF:-1 tvg-id="55.1" tvg-name="INVESTIGATION DISCOVERY v55.1",INVESTIGATION DISCOVERY v55.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v55.1
+http://128.230.54.128:5004/auto/tuner1/v55.1
 
 #EXTINF:-1 tvg-id="55.2" tvg-name="ACCU WEATHER v55.2",ACCU WEATHER v55.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v55.2
+http://128.230.54.128:5004/auto/tuner2/v55.2
 
 #EXTINF:-1 tvg-id="55.3" tvg-name="COOKING CHANNEL v55.3",COOKING CHANNEL v55.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v55.3
+http://128.230.54.128:5004/auto/tuner0/v55.3
 
 #EXTINF:-1 tvg-id="56.1" tvg-name="OXYGEN v56.1",OXYGEN v56.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v56.1
+http://128.230.54.128:5004/auto/tuner1/v56.1
 
 #EXTINF:-1 tvg-id="56.2" tvg-name="WE TV v56.2",WE TV v56.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v56.2
+http://128.230.54.128:5004/auto/tuner2/v56.2
 
 #EXTINF:-1 tvg-id="56.3" tvg-name="POP v56.3",POP v56.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v56.3
+http://128.230.54.128:5004/auto/tuner0/v56.3
 
 #EXTINF:-1 tvg-id="57.1" tvg-name="GAME SHOW NETWORK v57.1",GAME SHOW NETWORK v57.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v57.1
+http://128.230.54.128:5004/auto/tuner1/v57.1
 
 #EXTINF:-1 tvg-id="57.2" tvg-name="LOGO v57.2",LOGO v57.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v57.2
+http://128.230.54.128:5004/auto/tuner2/v57.2
 
 #EXTINF:-1 tvg-id="57.3" tvg-name="DISCOVERY LIFE v57.3",DISCOVERY LIFE v57.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v57.3
+http://128.230.54.128:5004/auto/tuner0/v57.3
 
 #EXTINF:-1 tvg-id="58.1" tvg-name="BET HER v58.1",BET HER v58.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v58.1
+http://128.230.54.128:5004/auto/tuner1/v58.1
 
 #EXTINF:-1 tvg-id="58.2" tvg-name="TV ONE v58.2",TV ONE v58.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v58.2
+http://128.230.54.128:5004/auto/tuner2/v58.2
 
 #EXTINF:-1 tvg-id="58.3" tvg-name="BBC WORLD NEWS v58.3",BBC WORLD NEWS v58.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v58.3
+http://128.230.54.128:5004/auto/tuner0/v58.3
 
 #EXTINF:-1 tvg-id="59.1" tvg-name="NICKTOONS v59.1",NICKTOONS v59.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v59.1
+http://128.230.54.128:5004/auto/tuner1/v59.1
 
 #EXTINF:-1 tvg-id="59.2" tvg-name="TEENNICK v59.2",TEENNICK v59.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v59.2
+http://128.230.54.128:5004/auto/tuner2/v59.2
 
 #EXTINF:-1 tvg-id="59.3" tvg-name="DISNEY XD v59.3",DISNEY XD v59.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v59.3
+http://128.230.54.128:5004/auto/tuner0/v59.3
 
 #EXTINF:-1 tvg-id="60.1" tvg-name="MTV LIVE v60.1",MTV LIVE v60.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v60.1
+http://128.230.54.128:5004/auto/tuner1/v60.1
 
 #EXTINF:-1 tvg-id="60.2" tvg-name="REVOLT v60.2",REVOLT v60.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v60.2
+http://128.230.54.128:5004/auto/tuner2/v60.2
 
 #EXTINF:-1 tvg-id="60.3" tvg-name="FUSE v60.3",FUSE v60.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v60.3
+http://128.230.54.128:5004/auto/tuner0/v60.3
 
 #EXTINF:-1 tvg-id="61.1" tvg-name="INSP v61.1",INSP v61.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v61.1
+http://128.230.54.128:5004/auto/tuner1/v61.1
 
 #EXTINF:-1 tvg-id="61.2" tvg-name="SUNDANCETV v61.2",SUNDANCETV v61.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v61.2
+http://128.230.54.128:5004/auto/tuner2/v61.2
 
 #EXTINF:-1 tvg-id="61.3" tvg-name="LMN v61.3",LMN v61.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v61.3
+http://128.230.54.128:5004/auto/tuner0/v61.3
 
 #EXTINF:-1 tvg-id="62.1" tvg-name="IFC v62.1",IFC v62.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v62.1
+http://128.230.54.128:5004/auto/tuner1/v62.1
 
 #EXTINF:-1 tvg-id="62.2" tvg-name="HALLMARK MOVIES v62.2",HALLMARK MOVIES v62.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v62.2
+http://128.230.54.128:5004/auto/tuner2/v62.2
 
 #EXTINF:-1 tvg-id="62.3" tvg-name="BET SOUL v62.3",BET SOUL v62.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v62.3
+http://128.230.54.128:5004/auto/tuner0/v62.3
 
 #EXTINF:-1 tvg-id="63.1" tvg-name="PAC-12 NETWORK v63.1",PAC-12 NETWORK v63.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v63.1
+http://128.230.54.128:5004/auto/tuner1/v63.1
 
 #EXTINF:-1 tvg-id="63.2" tvg-name="BYU TV v63.2",BYU TV v63.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v63.2
+http://128.230.54.128:5004/auto/tuner2/v63.2
 
 #EXTINF:-1 tvg-id="63.3" tvg-name="FX MOVIE CHANNEL v63.3",FX MOVIE CHANNEL v63.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v63.3
+http://128.230.54.128:5004/auto/tuner0/v63.3
 
 #EXTINF:-1 tvg-id="64.1" tvg-name="IMPACT NETWORK v64.1",IMPACT NETWORK v64.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v64.1
+http://128.230.54.128:5004/auto/tuner1/v64.1
 
 #EXTINF:-1 tvg-id="64.2" tvg-name="DIY NETWORK v64.2",DIY NETWORK v64.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v64.2
+http://128.230.54.128:5004/auto/tuner2/v64.2
 
 #EXTINF:-1 tvg-id="64.3" tvg-name="MTVU v64.3",MTVU v64.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v64.3
+http://128.230.54.128:5004/auto/tuner0/v64.3
 
 #EXTINF:-1 tvg-id="65.1" tvg-name="NEWSMAX v65.1",NEWSMAX v65.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v65.1
+http://128.230.54.128:5004/auto/tuner1/v65.1
 
 #EXTINF:-1 tvg-id="65.2" tvg-name="BIG TEN v65.2",BIG TEN v65.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v65.2
+http://128.230.54.128:5004/auto/tuner2/v65.2
 
 #EXTINF:-1 tvg-id="65.3" tvg-name="ACC NETWORK v65.3",ACC NETWORK v65.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v65.3
+http://128.230.54.128:5004/auto/tuner0/v65.3
 
 #EXTINF:-1 tvg-id="66.1" tvg-name="SPORTS PASS GUIDE v66.1",SPORTS PASS GUIDE v66.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v66.1
+http://128.230.54.128:5004/auto/tuner1/v66.1
 
 #EXTINF:-1 tvg-id="66.2" tvg-name="BEIN SPORTS v66.2",BEIN SPORTS v66.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v66.2
+http://128.230.54.128:5004/auto/tuner2/v66.2
 
 #EXTINF:-1 tvg-id="69.1" tvg-name="CBS SPORTS v69.1",CBS SPORTS v69.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v69.1
+http://128.230.54.128:5004/auto/tuner0/v69.1
 
 #EXTINF:-1 tvg-id="69.2" tvg-name="ESPN DEPORTES v69.2",ESPN DEPORTES v69.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v69.2
+http://128.230.54.128:5004/auto/tuner1/v69.2
 
 #EXTINF:-1 tvg-id="70.1" tvg-name="ESPN NEWS v70.1",ESPN NEWS v70.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v70.1
+http://128.230.54.128:5004/auto/tuner2/v70.1
 
 #EXTINF:-1 tvg-id="73.2" tvg-name="ESPNU v73.2",ESPNU v73.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v73.2
+http://128.230.54.128:5004/auto/tuner0/v73.2
 
 #EXTINF:-1 tvg-id="74.1" tvg-name="FOX DEPORTES v74.1",FOX DEPORTES v74.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v74.1
+http://128.230.54.128:5004/auto/tuner1/v74.1
 
 #EXTINF:-1 tvg-id="74.2" tvg-name="GOLF CHANNEL v74.2",GOLF CHANNEL v74.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v74.2
+http://128.230.54.128:5004/auto/tuner2/v74.2
 
 #EXTINF:-1 tvg-id="74.3" tvg-name="MLB NETWORK v74.3",MLB NETWORK v74.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v74.3
+http://128.230.54.128:5004/auto/tuner0/v74.3
 
 #EXTINF:-1 tvg-id="76.2" tvg-name="MLB STRIKE ZONE v76.2",MLB STRIKE ZONE v76.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v76.2
+http://128.230.54.128:5004/auto/tuner1/v76.2
 
 #EXTINF:-1 tvg-id="76.3" tvg-name="NBA TV v76.3",NBA TV v76.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v76.3
+http://128.230.54.128:5004/auto/tuner2/v76.3
 
 #EXTINF:-1 tvg-id="77.1" tvg-name="NFL NETWORK v77.1",NFL NETWORK v77.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v77.1
+http://128.230.54.128:5004/auto/tuner0/v77.1
 
 #EXTINF:-1 tvg-id="77.2" tvg-name="NFL REDZONE v77.2",NFL REDZONE v77.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v77.2
+http://128.230.54.128:5004/auto/tuner1/v77.2
 
 #EXTINF:-1 tvg-id="77.3" tvg-name="NHL NETWORK v77.3",NHL NETWORK v77.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v77.3
+http://128.230.54.128:5004/auto/tuner2/v77.3
 
 #EXTINF:-1 tvg-id="78.1" tvg-name="OLYMPIC CHANNEL v78.1",OLYMPIC CHANNEL v78.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v78.1
+http://128.230.54.128:5004/auto/tuner0/v78.1
 
 #EXTINF:-1 tvg-id="78.2" tvg-name="OUTDOOR CHANNEL v78.2",OUTDOOR CHANNEL v78.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v78.2
+http://128.230.54.128:5004/auto/tuner1/v78.2
 
 #EXTINF:-1 tvg-id="78.3" tvg-name="PAC-12 ARIZONA v78.3",PAC-12 ARIZONA v78.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v78.3
+http://128.230.54.128:5004/auto/tuner2/v78.3
 
 #EXTINF:-1 tvg-id="79.1" tvg-name="PAC-12 BAY AREA v79.1",PAC-12 BAY AREA v79.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v79.1
+http://128.230.54.128:5004/auto/tuner0/v79.1
 
 #EXTINF:-1 tvg-id="79.2" tvg-name="PAC-12 LOS ANGELES v79.2",PAC-12 LOS ANGELES v79.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v79.2
+http://128.230.54.128:5004/auto/tuner1/v79.2
 
 #EXTINF:-1 tvg-id="79.3" tvg-name="PAC-12 MOUNTAIN v79.3",PAC-12 MOUNTAIN v79.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v79.3
+http://128.230.54.128:5004/auto/tuner2/v79.3
 
 #EXTINF:-1 tvg-id="80.1" tvg-name="PAC-12 OREGON v80.1",PAC-12 OREGON v80.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v80.1
+http://128.230.54.128:5004/auto/tuner0/v80.1
 
 #EXTINF:-1 tvg-id="80.2" tvg-name="PAC-12 WASHINGTON v80.2",PAC-12 WASHINGTON v80.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v80.2
+http://128.230.54.128:5004/auto/tuner1/v80.2
 
 #EXTINF:-1 tvg-id="80.3" tvg-name="SEC ALTERNATE v80.3",SEC ALTERNATE v80.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v80.3
+http://128.230.54.128:5004/auto/tuner2/v80.3
 
 #EXTINF:-1 tvg-id="81.1" tvg-name="TENNIS CHANNEL v81.1",TENNIS CHANNEL v81.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v81.1
+http://128.230.54.128:5004/auto/tuner0/v81.1
 
 #EXTINF:-1 tvg-id="81.2" tvg-name="TVG v81.2",TVG v81.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v81.2
+http://128.230.54.128:5004/auto/tuner1/v81.2
 
 #EXTINF:-1 tvg-id="81.3" tvg-name="TUDN v81.3",TUDN v81.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v81.3
+http://128.230.54.128:5004/auto/tuner2/v81.3
 
 #EXTINF:-1 tvg-id="82.1" tvg-name="WILLOW CRICKET v82.1",WILLOW CRICKET v82.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v82.1
+http://128.230.54.128:5004/auto/tuner0/v82.1
 
 #EXTINF:-1 tvg-id="82.2" tvg-name="HBO GUIDE v82.2",HBO GUIDE v82.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v82.2
+http://128.230.54.128:5004/auto/tuner1/v82.2
 
 #EXTINF:-1 tvg-id="82.3" tvg-name="HBO v82.3",HBO v82.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v82.3
+http://128.230.54.128:5004/auto/tuner2/v82.3
 
 #EXTINF:-1 tvg-id="98.1" tvg-name="HBO 2 v98.1",HBO 2 v98.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v98.1
+http://128.230.54.128:5004/auto/tuner0/v98.1
 
 #EXTINF:-1 tvg-id="98.2" tvg-name="HBO SIGNATURE v98.2",HBO SIGNATURE v98.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v98.2
+http://128.230.54.128:5004/auto/tuner1/v98.2
 
 #EXTINF:-1 tvg-id="98.3" tvg-name="HBO COMEDY v98.3",HBO COMEDY v98.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v98.3
+http://128.230.54.128:5004/auto/tuner2/v98.3
 
 #EXTINF:-1 tvg-id="98.4" tvg-name="HBO FAMILY v98.4",HBO FAMILY v98.4
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v98.4
+http://128.230.54.128:5004/auto/tuner0/v98.4
 
 #EXTINF:-1 tvg-id="99.1" tvg-name="HBO LATINO v99.1",HBO LATINO v99.1
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v99.1
+http://128.230.54.128:5004/auto/tuner1/v99.1
 
 #EXTINF:-1 tvg-id="99.2" tvg-name="HBO ZONE v99.2",HBO ZONE v99.2
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner2/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v99.2
+http://128.230.54.128:5004/auto/tuner2/v99.2
 
 #EXTINF:-1 tvg-id="99.3" tvg-name="HBO v99.3",HBO v99.3
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner0/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v99.3
+http://128.230.54.128:5004/auto/tuner0/v99.3
 
 #EXTINF:-1 tvg-id="99.4" tvg-name="HBO 2 v99.4",HBO 2 v99.4
-#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/
+#EXTVLCOPT:http-referer=http://128.230.54.128:5004/auto/tuner1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://128.230.54.128:5004/auto/v99.4
+http://128.230.54.128:5004/auto/tuner1/v99.4
 
