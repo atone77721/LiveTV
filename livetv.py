@@ -192,16 +192,16 @@ def create_playlist():
             f.write('#EXTM3U x-tvg-url=""\n')
             f.write(f'#PLAYLIST:{datetime.utcnow().strftime("%Y-%m-%d")}\n\n')
 
-            # Process channels
-            for i, channel in enumerate(channels):
-                tuner = i % num_tuners
-                # Write channel entry
-                # Format the channel name as 'FULL_NAME vCHANNEL.NUM' (e.g., 'WWAY 2 CBS v11.6')
-                channel_name = f"{channel[1]} v{channel[0]}"
-                f.write(f'#EXTINF:-1 tvg-id="{channel[0]}" tvg-name="{channel_name}",{channel_name}\n')
-                f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{tuner}/\n')
-                f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                f.write(f'{base_url}/tuner{tuner}/v{channel[0]}\n\n')
+            # Process channels - create multiple entries for each channel (one per tuner)
+            for channel in channels:
+                for tuner in range(num_tuners):
+                    # Write channel entry
+                    # Format the channel name as 'FULL_NAME vCHANNEL.NUM (Tuner X)' (e.g., 'WWAY 2 CBS v11.6 (Tuner 0)')
+                    channel_name = f"{channel[1]} v{channel[0]} (Tuner {tuner})"
+                    f.write(f'#EXTINF:-1 tvg-id="{channel[0]}_tuner{tuner}" tvg-name="{channel_name}",{channel_name}\n')
+                    f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{tuner}/\n')
+                    f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
+                    f.write(f'{base_url}/tuner{tuner}/v{channel[0]}\n\n')
 
         print(f"TiviMate playlist generated: {output_file}")
         return output_file
