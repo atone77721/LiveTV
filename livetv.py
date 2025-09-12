@@ -1,4 +1,3 @@
-# text
 import os
 import urllib.request
 import json
