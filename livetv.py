@@ -54,6 +54,11 @@ def create_playlist():
         auto_detected = detect_tuners(base_url)
         num_tuners = int(os.getenv('HDHOMERUN_NUM_TUNERS', auto_detected))
 
+        # Force minimum of 1 tuner to prevent 0 tuner issue
+        if num_tuners < 1:
+            print("Warning: Detected 0 tuners, forcing minimum of 1 tuner")
+            num_tuners = 1
+
         print(f"Detected/Using {num_tuners} tuners")
 
         # Complete channel list
