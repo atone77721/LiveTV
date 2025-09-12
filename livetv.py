@@ -253,13 +253,16 @@ def create_playlist():
             total_entries = 0
             for channel in channels:
                 for tuner in range(num_tuners):
+                    # Use tuner 1 as default instead of tuner 0
+                    actual_tuner = tuner + 1  # This makes tuner 0 become tuner 1, tuner 1 become tuner 2, etc.
+                    
                     # Write channel entry
-                    # Format the channel name as 'FULL_NAME vCHANNEL.NUM (Tuner X)' (e.g., 'WWAY 2 CBS v11.6 (Tuner 0)')
-                    channel_name = f"{channel[1]} v{channel[0]} (Tuner {tuner})"
-                    f.write(f'#EXTINF:-1 tvg-id="{channel[0]}_tuner{tuner}" tvg-name="{channel_name}",{channel_name}\n')
-                    f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{tuner}/\n')
+                    # Format the channel name as 'FULL_NAME vCHANNEL.NUM (Tuner X)' (e.g., 'WWAY 2 CBS v11.6 (Tuner 1)')
+                    channel_name = f"{channel[1]} v{channel[0]} (Tuner {actual_tuner})"
+                    f.write(f'#EXTINF:-1 tvg-id="{channel[0]}_tuner{actual_tuner}" tvg-name="{channel_name}",{channel_name}\n')
+                    f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{actual_tuner}/\n')
                     f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                    f.write(f'{base_url}/tuner{tuner}/v{channel[0]}\n\n')
+                    f.write(f'{base_url}/tuner{actual_tuner}/v{channel[0]}\n\n')
                     total_entries += 1
 
             print(f"Generated {total_entries} total entries")
