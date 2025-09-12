@@ -48,6 +48,11 @@ def create_playlist():
         # Remove any trailing slashes to prevent double slashes
         base_url = base_url.rstrip('/')
 
+        # Remove /auto from base_url if it exists
+        if base_url.endswith('/auto'):
+            base_url = base_url[:-5]  # Remove '/auto'
+            print("Removed /auto from base URL")
+
         print(f"Using base URL: {base_url}")
 
         # Auto-detect tuners or use environment variable
