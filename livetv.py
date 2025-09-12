@@ -5,30 +5,40 @@ from datetime import datetime
 
 def detect_tuners(base_url):
     """Auto-detect the number of tuners on the HDHomeRun device"""
+    print("Detecting tuners...")
     try:
         # Try to get device info
         try:
+            print(f"Trying {base_url}/discover.json")
             with urllib.request.urlopen(f"{base_url}/discover.json", timeout=5) as response:
                 data = json.loads(response.read().decode())
+                print(f"Discovery response: {data}")
                 # Look for tuner count in device info
                 if 'TunerCount' in data:
+                    print(f"Found TunerCount: {data['TunerCount']}")
                     return data['TunerCount']
-        except:
-            pass
+        except Exception as e:
+            print(f"Discovery failed: {e}")
 
         # Fallback: try different tuner numbers until we get an error
+        print("Trying fallback tuner detection...")
         for tuner in range(10):  # Check up to 10 tuners
             try:
                 test_url = f"{base_url}/tuner{tuner}/status"
+                print(f"Testing {test_url}")
                 with urllib.request.urlopen(test_url, timeout=2) as response:
                     if response.getcode() != 200:
+                        print(f"Tuner {tuner} returned {response.getcode()}, stopping at {tuner}")
                         return tuner  # Return the number of working tuners
-            except:
+            except Exception as e:
+                print(f"Tuner {tuner} failed: {e}, stopping at {tuner}")
                 return tuner  # Return the number that failed
 
+        print("Using default of 3 tuners")
         return 3  # Default fallback
 
-    except:
+    except Exception as e:
+        print(f"Tuner detection error: {e}")
         return 3  # Default fallback
 
 def create_playlist():
@@ -37,6 +47,8 @@ def create_playlist():
         base_url = os.getenv('LIVETV_BASE_URL', 'http://128.230.54.128:5004')
         # Remove any trailing slashes to prevent double slashes
         base_url = base_url.rstrip('/')
+
+        print(f"Using base URL: {base_url}")
 
         # Auto-detect tuners or use environment variable
         auto_detected = detect_tuners(base_url)
@@ -217,6 +229,8 @@ def create_playlist():
             ('99.4', 'HBO 2')         # Updated from HBO ZONE to match your list
         ]
 
+        print(f"Processing {len(channels)} channels with {num_tuners} tuners each...")
+
         # Generate TiviMate compatible M3U
         output_file = 'tivimate_playlist.m3u'
 
@@ -226,6 +240,7 @@ def create_playlist():
             f.write(f'#PLAYLIST:{datetime.utcnow().strftime("%Y-%m-%d")}\n\n')
 
             # Process channels - create multiple entries for each channel (one per tuner)
+            total_entries = 0
             for channel in channels:
                 for tuner in range(num_tuners):
                     # Write channel entry
@@ -235,6 +250,9 @@ def create_playlist():
                     f.write(f'#EXTVLCOPT:http-referer={base_url}/tuner{tuner}/\n')
                     f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
                     f.write(f'{base_url}/tuner{tuner}/v{channel[0]}\n\n')
+                    total_entries += 1
+
+            print(f"Generated {total_entries} total entries")
 
         print(f"TiviMate playlist generated: {output_file}")
         return output_file
