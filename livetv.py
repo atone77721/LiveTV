@@ -1,5 +1,32 @@
 import os
+import requests
 from datetime import datetime
+
+def detect_tuners(base_url):
+    """Auto-detect the number of tuners on the HDHomeRun device"""
+    try:
+        # Try to get device info
+        response = requests.get(f"{base_url}/discover.json", timeout=5)
+        if response.status_code == 200:
+            data = response.json()
+            # Look for tuner count in device info
+            if 'TunerCount' in data:
+                return data['TunerCount']
+
+        # Fallback: try different tuner numbers until we get an error
+        for tuner in range(10):  # Check up to 10 tuners
+            try:
+                test_url = f"{base_url}/tuner{tuner}/status"
+                response = requests.get(test_url, timeout=2)
+                if response.status_code != 200:
+                    return tuner  # Return the number of working tuners
+            except:
+                return tuner  # Return the number that failed
+
+        return 3  # Default fallback
+
+    except:
+        return 3  # Default fallback
 
 def create_playlist():
     try:
@@ -8,8 +35,11 @@ def create_playlist():
         # Remove any trailing slashes to prevent double slashes
         base_url = base_url.rstrip('/')
 
-        # Get number of tuners from environment variable or use default
-        num_tuners = int(os.getenv('HDHOMERUN_NUM_TUNERS', 3))
+        # Auto-detect tuners or use environment variable
+        auto_detected = detect_tuners(base_url)
+        num_tuners = int(os.getenv('HDHOMERUN_NUM_TUNERS', auto_detected))
+
+        print(f"Detected/Using {num_tuners} tuners")
 
         # Complete channel list
         channels = [
