@@ -1,25 +1,28 @@
 import os
-import requests
+import urllib.request
+import json
 from datetime import datetime
 
 def detect_tuners(base_url):
     """Auto-detect the number of tuners on the HDHomeRun device"""
     try:
         # Try to get device info
-        response = requests.get(f"{base_url}/discover.json", timeout=5)
-        if response.status_code == 200:
-            data = response.json()
-            # Look for tuner count in device info
-            if 'TunerCount' in data:
-                return data['TunerCount']
+        try:
+            with urllib.request.urlopen(f"{base_url}/discover.json", timeout=5) as response:
+                data = json.loads(response.read().decode())
+                # Look for tuner count in device info
+                if 'TunerCount' in data:
+                    return data['TunerCount']
+        except:
+            pass
 
         # Fallback: try different tuner numbers until we get an error
         for tuner in range(10):  # Check up to 10 tuners
             try:
                 test_url = f"{base_url}/tuner{tuner}/status"
-                response = requests.get(test_url, timeout=2)
-                if response.status_code != 200:
-                    return tuner  # Return the number of working tuners
+                with urllib.request.urlopen(test_url, timeout=2) as response:
+                    if response.getcode() != 200:
+                        return tuner  # Return the number of working tuners
             except:
                 return tuner  # Return the number that failed
 
