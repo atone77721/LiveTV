@@ -35,14 +35,33 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Sanity check LiveTV endpoint
+      # ✅ Only check TCP connectivity to the base URL's host:port (404s are fine)
+      - name: Sanity check LiveTV endpoint (TCP only)
         env:
           LIVETV_BASE_URL: ${{ secrets.LIVETV_BASE_URL }}
         run: |
           set -e
-          echo "Checking connectivity to LiveTV endpoint..."
-          curl -fsS --max-time 10 "$LIVETV_BASE_URL" >/dev/null
-          echo "OK: LiveTV base URL is reachable."
+          python - <<'PY'
+          import os, sys, socket, urllib.parse
+          url = os.environ.get("LIVETV_BASE_URL")
+          if not url:
+              print("LIVETV_BASE_URL is unset"); sys.exit(1)
+          u = urllib.parse.urlparse(url)
+          host = u.hostname
+          port = u.port or (80 if u.scheme == "http" else 443)
+          if not host:
+              print(f"Invalid LIVETV_BASE_URL: {url}"); sys.exit(1)
+          s = socket.socket()
+          s.settimeout(6)
+          try:
+              s.connect((host, port))
+          except Exception as e:
+              print(f"FAILED to connect to {host}:{port} -> {e}")
+              sys.exit(1)
+          finally:
+              s.close()
+          print(f"OK: TCP connection to {host}:{port}")
+          PY
 
       - name: Install dependencies
         run: python -m pip install --upgrade pip
@@ -67,13 +86,10 @@ jobs:
 
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Ensure pushes use token auth
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
           git add tivimate_playlist.m3u
 
-          # Exit if no changes
           if git diff --quiet --cached; then
             echo "No changes to commit."
             exit 0
@@ -81,13 +97,11 @@ jobs:
 
           git commit -m "Update TiviMate playlist [skip ci]"
 
-          # Rebase our commit onto latest main to handle non-fast-forward
           git config pull.rebase true
           git config rebase.autoStash true
           git fetch origin main
           git pull --rebase --autostash origin main
 
-          # Retry push a few times in case of races
           for i in 1 2 3; do
             if git push origin HEAD:main; then
               echo "Pushed successfully."
