@@ -1,4 +1,15 @@
-# .github/workflows/update_livetv.yml (only the relevant bits)
+# .github/workflows/update_livetv.yml
+name: Update LiveTV Playlist
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 3:00 AM UTC daily
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'livetv.py'
+      - '.github/workflows/update_livetv.yml'
 
 permissions:
   contents: write
@@ -10,11 +21,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
           token: ${{ github.token }}
 
       - name: Set up Python
@@ -28,7 +41,6 @@ jobs:
         run: |
           set -e
           echo "Checking connectivity to LiveTV endpoint..."
-          # Probe root; tweak path if your service exposes a health route
           curl -fsS --max-time 10 "$LIVETV_BASE_URL" >/dev/null
           echo "OK: LiveTV base URL is reachable."
 
@@ -52,11 +64,16 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -e
+
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ensure pushes use token auth
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
           git add tivimate_playlist.m3u
+
+          # Exit if no changes
           if git diff --quiet --cached; then
             echo "No changes to commit."
             exit 0
@@ -64,17 +81,19 @@ jobs:
 
           git commit -m "Update TiviMate playlist [skip ci]"
 
+          # Rebase our commit onto latest main to handle non-fast-forward
           git config pull.rebase true
           git config rebase.autoStash true
           git fetch origin main
           git pull --rebase --autostash origin main
 
+          # Retry push a few times in case of races
           for i in 1 2 3; do
             if git push origin HEAD:main; then
               echo "Pushed successfully."
               break
             fi
-            echo "Push race detected (attempt $i). Rebasing and retrying..."
+            echo "Push failed (attempt $i). Rebasing and retrying..."
             git fetch origin main
             git pull --rebase --autostash origin main
             sleep $((RANDOM % 5 + 1))
