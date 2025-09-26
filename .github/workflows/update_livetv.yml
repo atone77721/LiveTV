@@ -1,114 +1,39 @@
-# .github/workflows/update_livetv.yml
-name: Update LiveTV Playlist
+name: StreamedPK Scraper
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 3:00 AM UTC daily
+    - cron: '0 */3 * * *'  # Runs every 3 hours
   workflow_dispatch:
-  push:
-    branches: [ main ]
-    paths:
-      - 'livetv.py'
-      - '.github/workflows/update_livetv.yml'
-
-permissions:
-  contents: write
-
-concurrency:
-  group: update-livetv
-  cancel-in-progress: true
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: main
-          token: ${{ github.token }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-
-      # ✅ Only check TCP connectivity to the base URL's host:port (404s are fine)
-      - name: Sanity check LiveTV endpoint (TCP only)
-        env:
-          LIVETV_BASE_URL: ${{ secrets.LIVETV_BASE_URL }}
-        run: |
-          set -e
-          python - <<'PY'
-          import os, sys, socket, urllib.parse
-          url = os.environ.get("LIVETV_BASE_URL")
-          if not url:
-              print("LIVETV_BASE_URL is unset"); sys.exit(1)
-          u = urllib.parse.urlparse(url)
-          host = u.hostname
-          port = u.port or (80 if u.scheme == "http" else 443)
-          if not host:
-              print(f"Invalid LIVETV_BASE_URL: {url}"); sys.exit(1)
-          s = socket.socket()
-          s.settimeout(6)
-          try:
-              s.connect((host, port))
-          except Exception as e:
-              print(f"FAILED to connect to {host}:{port} -> {e}")
-              sys.exit(1)
-          finally:
-              s.close()
-          print(f"OK: TCP connection to {host}:{port}")
-          PY
+          python-version: '3.10'  # Valid Python version
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip
-
-      - name: Generate playlist
-        env:
-          LIVETV_BASE_URL: ${{ secrets.LIVETV_BASE_URL }}
-        run: python livetv.py
-
-      - name: Upload playlist artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: livetv-playlist
-          path: tivimate_playlist.m3u
-          retention-days: 1
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
         run: |
-          set -e
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
 
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+      - name: Run scraper
+        run: python streamedpk_scraper.py
 
-          git add tivimate_playlist.m3u
-
-          if git diff --quiet --cached; then
-            echo "No changes to commit."
-            exit 0
+      - name: Commit and push scraped files (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/*
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update scraped files [skip ci]"
+            git push origin main
           fi
-
-          git commit -m "Update TiviMate playlist [skip ci]"
-
-          git config pull.rebase true
-          git config rebase.autoStash true
-          git fetch origin main
-          git pull --rebase --autostash origin main
-
-          for i in 1 2 3; do
-            if git push origin HEAD:main; then
-              echo "Pushed successfully."
-              break
-            fi
-            echo "Push failed (attempt $i). Rebasing and retrying..."
-            git fetch origin main
-            git pull --rebase --autostash origin main
-            sleep $((RANDOM % 5 + 1))
-          done
